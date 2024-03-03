@@ -1,0 +1,100 @@
+
+
+/* .img1{
+    position: absolute;
+    z-index: 1;
+}
+
+.img2{
+    position: absolute;
+    z-index: 2;
+}
+
+.img3{
+    position: absolute;
+    z-index: 3;
+    left: 500px;
+    top: 400px;
+} */
+
+
+.w1{
+    width: 290px ;
+    height: 290px; ;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+    
+
+
+
+.w2{
+    width: 290px ;
+    height: 290px; ;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 150px;
+    animation: ww 2s alternate;
+}
+@keyframes ww{
+    0%{
+        transform: translateX(500px);
+        opacity:0 ;
+    }
+    25%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.5;
+
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateX(0);
+opacity: 1;
+    }
+}
+
+
+
+.w3{
+    width: 290px ;
+    height: 290px; ;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    left: 300px;
+    animation: www 3s alternate;
+}
+@keyframes www{
+    0%{
+        transform: translateX(1000px);
+        opacity:0 ;
+    }
+    25%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.5;
+
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateX(0);
+opacity: 1;
+    }
+}
+
+
+
